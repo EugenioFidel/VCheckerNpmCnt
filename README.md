@@ -14,4 +14,5 @@ gets the data about the artifacts from a json file with this structure
             }
 
  To get VCheckerNopCnt docker container : docker pull ugenio/vcheckernpmcnt
+ 
  To run the container: docker run -v [path to json file]:/usr/src/mymaven/[json name] -e "REPOSITORIES=[json name]" ugenio/vcheckernpmcnt
